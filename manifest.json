@@ -1,0 +1,15 @@
+{
+  "name": "Patanjali Order Printer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A Chrome extension that fetches order details from Patanjali e-commerce and creates a thermal printing.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Patanjali Order Printer"
+  },
+  "permissions": ["tabs",
+  "activeTab","scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
